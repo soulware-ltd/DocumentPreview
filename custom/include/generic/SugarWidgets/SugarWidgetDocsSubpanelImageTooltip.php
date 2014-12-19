@@ -1,0 +1,23 @@
+<?php
+if(!defined('sugarEntry') || !sugarEntry) die("Not A Valid Entry Point!");
+
+class SugarWidgetDocsSubpanelImageTooltip extends SugarWidgetField {
+
+
+	function displayList($layout_def) {
+
+		global $app_strings;
+		global $subpanel_item_count;
+
+		if(!is_numeric($subpanel_item_count)) {
+			return "Preview";
+		} else {
+
+			$id = $layout_def['fields']['ID'];
+			$icon = "custom/themes/default/images/ImageTooltip.gif";
+
+			return '<div class="imageReviewTooltip" title="'.$id.'"><img src="'.$icon.'">' . $app_strings["LBL_DOCUMENT_PREVIEW"] . '</div>';
+		}
+	}
+
+}

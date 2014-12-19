@@ -1,0 +1,12 @@
+{
+    "name": "soulware/document-preview",
+    "description": "SugarCRM install and uninstall script to modify or extend views with custom code.",
+    "version": "0.9.0",
+    "license": "MIT",
+    "require": {
+        "php": ">=5.3.0", 
+        "soulware/edit-theme-on-install": "dev-master",
+        "soulware/edit-metadata-on-install":"dev-master"
+    },
+    "minimum-stability":"dev"
+}
