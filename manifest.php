@@ -46,11 +46,19 @@ $installdefs = array(
 		'from' => '<basepath>/custom/include/javascript/jquery.qtip.js',
 		'to' => 'custom/include/javascript/jquery.qtip.js',
 		),
-		5 => array(
+                5 => array(
+		'from' => '<basepath>/custom/include/javascript/jquery.qtip.min.js',
+		'to' => 'custom/include/javascript/jquery.qtip.min.js',
+		),
+                6 => array(
+		'from' => '<basepath>/custom/include/javascript/jquery.qtip.min.css',
+		'to' => 'custom/include/javascript/jquery.qtip.min.css',
+		),
+		7 => array(
 		'from' => '<basepath>/custom/modules/Documents/GetImagePreview.php',
 		'to' => 'custom/modules/Documents/GetImagePreview.php',
 		),
-		6 => array(
+		8 => array(
 		'from' => '<basepath>/custom/themes/default/images/ImageTooltip.gif',
 		'to' => 'custom/themes/default/images/ImageTooltip.gif',
 		),
